@@ -18,11 +18,12 @@ const Home = () => {
             }
         
            </div>
-            <Link to={"/allApps"}>
+    
+          <Link to={'/apps'}>
              <div className='  flex items-center justify-center pt-10 pb-20'>
                 <button className='btn text-white text-lg px-10 py-5 bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)]'>Show All</button>
            </div>
-            </Link>
+          </Link>
         </div>
     );
 };

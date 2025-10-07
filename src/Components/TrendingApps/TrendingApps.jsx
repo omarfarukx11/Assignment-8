@@ -1,11 +1,10 @@
 import React from "react";
 import DownloadImg from '../../assets/icon-downloads.png'
 import StarImg from '../../assets/icon-ratings.png'
-const TrendingApps = ({ appData }) => {
-  
-    const {image,title ,ratingAvg , downloads} = appData
-    console.log(appData)
 
+const TrendingApps = ({ appData }) => {
+    const {image,title ,ratingAvg , downloads} = appData
+  
   return (
     <div className="card bg-base-100 shadow-xl p-5">
         <img
