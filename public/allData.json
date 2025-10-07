@@ -1,0 +1,290 @@
+[
+  {
+    "image": "https://placehold.co/200x300.png?text=App1",
+    "title": "TaskMaster Pro",
+    "companyName": "Efficient Apps",
+    "id": 1,
+    "description": "TaskMaster Pro helps you organize your day efficiently. With a sleek interface, you can manage tasks, set reminders, and track your productivity. Integration with calendars ensures you never miss deadlines. Real-time sync keeps your data updated across devices. Share tasks with colleagues or friends seamlessly. The app also provides detailed analytics of your performance to improve work habits.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.6,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 75 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App2",
+    "title": "FitLife Tracker",
+    "companyName": "HealthTech",
+    "id": 2,
+    "description": "FitLife Tracker is your personal fitness companion. Track steps, calories, and workouts effortlessly. Set fitness goals and monitor progress over time. Receive personalized health tips based on your activity. The app integrates with wearable devices for more accurate data. Join challenges with friends to stay motivated. Its intuitive charts make it easy to visualize your achievements.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 515 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App3",
+    "title": "PhotoBlend",
+    "companyName": "Creative Labs",
+    "id": 3,
+    "description": "PhotoBlend allows you to create stunning photo edits with ease. Merge multiple images, apply professional filters, and add text overlays. Its AI-powered tools automatically enhance image quality. Share creations directly to social media platforms. Access hundreds of templates to save time. Adjust brightness, contrast, and saturation for perfect results. Great for both beginners and professional photographers.",
+    "size": 85,
+    "reviews": 1500,
+    "ratingAvg": 4.7,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 935 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App4",
+    "title": "LearnLang",
+    "companyName": "EduWorld",
+    "id": 4,
+    "description": "LearnLang makes learning new languages fun and interactive. Complete lessons with audio and video support. Track progress through quizzes and interactive exercises. Chat with native speakers to practice conversational skills. Access thousands of vocabulary words and phrases. Customize learning plans to fit your schedule. The app also offers cultural tips to enhance language understanding.",
+    "size": 90,
+    "reviews": 875,
+    "ratingAvg": 4.5,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App5",
+    "title": "MoneyMate",
+    "companyName": "FinancePro",
+    "id": 5,
+    "description": "MoneyMate helps you manage your finances efficiently. Track income, expenses, and budgets all in one place. Get visual reports to understand spending habits. Set financial goals and receive reminders to stay on track. Secure encryption ensures your data is protected. Sync across multiple devices for convenience. The app also provides tips for saving and investing wisely.",
+    "size": 70,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App6",
+    "title": "TravelBuddy",
+    "companyName": "Wanderlust Co.",
+    "id": 6,
+    "description": "TravelBuddy is your companion for planning unforgettable trips. Find flights, hotels, and local attractions quickly. Personalized recommendations make every trip unique. Offline maps ensure you never get lost. Track your itinerary and share it with friends or family. Receive alerts for deals and promotions. The app also supports travel journaling to save memories.",
+    "size": 120,
+    "reviews": 1400,
+    "ratingAvg": 4.8,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 855 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App7",
+    "title": "MindRelax",
+    "companyName": "Wellness Apps",
+    "id": 7,
+    "description": "MindRelax offers guided meditation and relaxation exercises. Reduce stress with breathing techniques and calming sounds. Track mood and mental health over time. Access programs for sleep improvement and focus enhancement. The app provides daily motivational quotes. Customize sessions based on time and intensity. Its analytics help you measure progress and stay consistent.",
+    "size": 55,
+    "reviews": 900,
+    "ratingAvg": 4.6,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 515 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App8",
+    "title": "RecipeMaster",
+    "companyName": "Culinary Hub",
+    "id": 8,
+    "description": "RecipeMaster provides thousands of recipes from around the world. Filter recipes by dietary preferences and ingredients. Step-by-step instructions make cooking easy. Watch video tutorials to master cooking techniques. Save favorite recipes for quick access. Share recipes with friends and family. The app also suggests meal plans based on your taste and diet.",
+    "size": 80,
+    "reviews": 1300,
+    "ratingAvg": 4.7,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 705 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App9",
+    "title": "WeatherWise",
+    "companyName": "ClimateTech",
+    "id": 9,
+    "description": "WeatherWise provides accurate and timely weather forecasts. Get real-time updates for temperature, wind, and precipitation. View hourly and weekly forecasts for your location. Receive severe weather alerts to stay safe. Customize notifications for favorite cities. Interactive radar maps help track storms and weather patterns. The app also offers tips for outdoor activities based on the forecast.",
+    "size": 65,
+    "reviews": 1150,
+    "ratingAvg": 4.5,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 545 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App10",
+    "title": "NoteSmart",
+    "companyName": "Productivity Plus",
+    "id": 10,
+    "description": "NoteSmart helps you capture ideas and notes instantly. Organize notes into folders and categories. Add images, voice recordings, and checklists for better context. Sync notes across devices for accessibility. Search feature allows you to find notes quickly. Collaborate with colleagues or friends on shared notes. The app also offers reminders for important tasks.",
+    "size": 50,
+    "reviews": 1250,
+    "ratingAvg": 4.6,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 675 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App11",
+    "title": "ShopEasy",
+    "companyName": "Retail Hub",
+    "id": 11,
+    "description": "ShopEasy helps you find the best deals online. Compare prices, read reviews, and save favorite products. Get notifications for discounts and flash sales. Secure checkout ensures safe transactions. The app supports multiple payment options. Track your orders and delivery status. Personalized recommendations help you shop smarter.",
+    "size": 95,
+    "reviews": 1400,
+    "ratingAvg": 4.7,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 805 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App12",
+    "title": "QuickNotes",
+    "companyName": "NoteTech",
+    "id": 12,
+    "description": "QuickNotes allows you to take notes on the go. Organize them by tags and categories. Add images, voice notes, and reminders. Sync notes across devices for seamless access. Share notes with friends or colleagues. Its intuitive interface ensures productivity anywhere. Analytics provide insights on note usage.",
+    "size": 40,
+    "reviews": 950,
+    "ratingAvg": 4.5,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 535 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App13",
+    "title": "GameZone",
+    "companyName": "FunGames",
+    "id": 13,
+    "description": "GameZone offers a variety of casual and strategy games. Play solo or challenge friends online. Earn achievements and rewards. The app provides daily updates with new levels. Track your scores and rankings. Join tournaments to test your skills. Enjoy high-quality graphics and sound effects.",
+    "size": 110,
+    "reviews": 1300,
+    "ratingAvg": 4.6,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 605 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App14",
+    "title": "HealthBuddy",
+    "companyName": "Wellness Apps",
+    "id": 14,
+    "description": "HealthBuddy tracks your wellness routines. Monitor sleep, water intake, and workouts. Receive daily health tips. Join community challenges for motivation. Sync data across devices. Track your progress with charts. The app integrates with wearable devices for accuracy.",
+    "size": 60,
+    "reviews": 1000,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 555 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App15",
+    "title": "Foodies",
+    "companyName": "Culinary Hub",
+    "id": 15,
+    "description": "Foodies is your guide to restaurants and recipes. Discover new dishes, read reviews, and save favorites. Get personalized suggestions based on your taste. Book tables directly through the app. Track nutritional information for meals. Share your culinary experiences with friends. The app includes video tutorials and tips.",
+    "size": 70,
+    "reviews": 1100,
+    "ratingAvg": 4.7,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 645 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x300.png?text=App16",
+    "title": "TravelMate",
+    "companyName": "Wanderlust Co.",
+    "id": 16,
+    "description": "TravelMate helps you plan trips effortlessly. Find accommodations, local attractions, and deals. Offline maps ensure navigation anywhere. Track your itinerary and share with friends. Get personalized recommendations based on interests. Receive alerts for special offers. The app includes travel journaling and photo sharing features.",
+    "size": 120,
+    "reviews": 1400,
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 855 }
+    ]
+  }
+]

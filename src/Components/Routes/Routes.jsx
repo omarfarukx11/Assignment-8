@@ -5,6 +5,7 @@ import Root from '../Pages/Root/Root';
 import Home from '../Pages/Home/Home';
 import Apps from '../Pages/Apps/Apps';
 import Installation from '../Pages/Installaton/Installation';
+import AllApps from '../Pages/AllApps/AllApps';
 
 const router = createBrowserRouter([
     {
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
         children:[
             {
             index:true,
+            loader: () => fetch('data.json'),
             Component:Home,
             },
             {
@@ -22,6 +24,11 @@ const router = createBrowserRouter([
             {
                 path:'/instal',
                 Component:Installation
+            },
+            {
+                path:'/allApps',
+                loader:() => fetch('allData.json'),
+                Component:AllApps
             }
         ]
     }

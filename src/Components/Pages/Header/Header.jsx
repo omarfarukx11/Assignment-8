@@ -40,7 +40,7 @@ const Header = () => {
   <div className="navbar-end">
     
     <div className="btn bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)]  text-white p-5"> 
-        <span className='flex items-center gap-3 justify-center '><img className='pb-1' src={GithubLogo} alt="githubLogo" />Contribute</span>
+        <a href="https://github.com/omarfarukx11" target='main'><span className='flex items-center gap-3 justify-center '><img className='pb-1' src={GithubLogo} alt="githubLogo" />Contribute</span></a>
       
     </div>
   </div>

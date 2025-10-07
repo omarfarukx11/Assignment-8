@@ -5,7 +5,7 @@ import HeroImg from '../../assets/hero.png'
 
 const Banner = () => {
   return (
-    <div className=" bg-[#f5f5f5] shadow-sm py-20">
+    <div className=" bg-[#f5f5f5] shadow-sm pt-20">
       <div className="flex items-center justify-center flex-col">
         <h1 className="text-5xl font-bold text-center pb-5 ">
           We Build <br />
@@ -34,9 +34,9 @@ const Banner = () => {
         <img className="mx-auto pt-10" src={HeroImg} alt="heroImage" />
     </div>
     <div className="bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] text-white px-20">
-        <h1 className="text-center font-semibold text-4xl py-10
+        <h1 className="text-center font-semibold lg:text-4xl text-2xl py-10
         ">Trusted by Millions, Built for You</h1>
-        <div className="grid grid-cols-3 justify-items-center">
+        <div className="grid md:grid-cols-3 grid-cols-1 justify-items-center">
             <div className="text-center py-10">
                 <p>Total Downloads</p>
                 <h1 className="text-5xl font-semibold py-4">29.6M</h1>
@@ -55,7 +55,7 @@ const Banner = () => {
         </div>
     </div>
      </div>
-  );
-};
+  )
+}
 
 export default Banner;
