@@ -6,6 +6,7 @@ import Apps from '../Pages/Apps/Apps';
 import Installation from '../Pages/Installaton/Installation';
 import AppDetails from '../Pages/AppDetails/AppDetails';
 import NotFound from '../Pages/NotFound/NotFound';
+import AppNotFound from '../Pages/AppNotFound/AppNotFound';
 
 
 
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path:"*",
                 Component:NotFound
+            },
+            {
+                path:'appNotFound',
+                Component:AppNotFound
             }
             
             

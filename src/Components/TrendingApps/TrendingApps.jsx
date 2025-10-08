@@ -8,7 +8,7 @@ const TrendingApps = ({ appData }) => {
   
   return (
     <Link to={`/appDetails/${id}`}>
-    <div className="card bg-base-100 shadow-xl p-5">
+    <div className="card bg-base-100 hover:scale-105 transition-transform duration-500 ease-in-out shadow-xl p-5">
         <img
         className="rounded-lg"
           src={image}

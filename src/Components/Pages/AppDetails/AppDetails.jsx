@@ -35,7 +35,7 @@ const AppDetails = () => {
       <div className="flex flex-col lg:flex-row gap-10 relative">
         <div>
           {" "}
-          <img className="w-[400px] h-[400px] lg:mx-0 mx-auto" src={image} alt="app" />
+          <img className="w-[400px] h-[400px] rounded-lg lg:mx-0 mx-auto" src={image} alt="app" />
         </div>
         <div className="">
           <div className="lg:text-start text-center">
