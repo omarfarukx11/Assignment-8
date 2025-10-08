@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import LogoImg from '../../../assets/logo.png'
 import GithubLogo from '../../../assets/fi_2111432.png'
 
@@ -11,7 +11,7 @@ const Header = () => {
     </>
     return (
         
-        <div className="navbar bg-[#FFFFFF] shadow-sm px-10">
+     <div className="navbar bg-[#FFFFFF] shadow-sm px-10">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -25,10 +25,12 @@ const Header = () => {
         }
       </ul>
     </div>
+   <Link to={'/'}>
     <div className='flex items-center gap-2'>
         <img className='w-[50px]' src={LogoImg} alt="" />
         <h1 className='text-xl font-bold bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] bg-clip-text text-transparent'>HERO.IO</h1>
     </div>
+   </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 space-x-5 text-xl font-semibold">

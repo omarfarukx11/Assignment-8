@@ -1,10 +1,12 @@
 import React from 'react';
 import DownloadImg from '../../../assets/icon-downloads.png'
 import StarImg from '../../../assets//icon-ratings.png'
+import { Link } from 'react-router';
 
 const AllApp = ({data}) => {
-    const {image , title, ratingAvg , downloads} = data;
+    const {image , title, ratingAvg , downloads ,id} = data;
     return (
+      <Link to={`/appDetails/${id}`}>
            <div className="card bg-base-100 shadow-xl p-5">
                 <img
                 className="rounded-lg"
@@ -25,6 +27,7 @@ const AllApp = ({data}) => {
                 </div>
               </div>
             </div>
+       </Link>
     );
 };
 

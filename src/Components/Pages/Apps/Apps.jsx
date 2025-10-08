@@ -5,10 +5,9 @@ import AllApp from '../AllApp/AllApp';
 
 const Apps = () => {
     const allAppsData = useLoaderData()
-   allAppsData.map(data => console.log(data))
-    
-    
+
     return (
+        
         <div>
             <div className='text-center my-16'>
             <h1 className='text-5xl font-semibold'>Our All Applications</h1>
@@ -27,6 +26,7 @@ const Apps = () => {
         }
         </div>
         </div>
+  
     );
 };
 
