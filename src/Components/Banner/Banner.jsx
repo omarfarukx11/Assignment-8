@@ -7,13 +7,13 @@ const Banner = () => {
   return (
     <div className=" bg-[#f5f5f5] shadow-sm pt-20">
       <div className="flex items-center justify-center flex-col">
-        <h1 className="text-5xl font-bold text-center pb-5 ">
+        <h1 className="text-5xl font-bold px-5 text-center pb-5 ">
           We Build <br />
           <span className="bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] bg-clip-text text-transparent">
             Productive 
           </span> Apps
         </h1>
-        <p className="text-center text-gray-600">
+        <p className="text-center text-gray-600 px-5">
           At HERO.IO , we craft innovative apps designed to make everyday life
           simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas
           into digital experiences that truly make an impact.
@@ -31,7 +31,7 @@ const Banner = () => {
 
     <div>
         <div></div>
-        <img className="mx-auto pt-10" src={HeroImg} alt="heroImage" />
+        <img className="mx-auto px-5 pt-10" src={HeroImg} alt="heroImage" />
     </div>
     <div className="bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] text-white px-20">
         <h1 className="text-center font-semibold lg:text-4xl text-2xl py-10
