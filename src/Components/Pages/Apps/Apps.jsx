@@ -14,7 +14,7 @@ const Apps = () => {
   );
 
   return (
-    <div>
+    <div className="px-10">
         {navigation.state === "loading" && (
         <div className=" w-full text-5xl flex  h-[100vh] z-50 text-center items-center justify-center font-bold gap-5">
           <span>Loading</span>{" "}
@@ -43,7 +43,7 @@ const Apps = () => {
         </label>
       </div>
       {filteredApps.length > 0 ? (
-        <div className="grid xl:grid-cols-4 gap-5 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mb-20">
+        <div className="grid xl:grid-cols-4 gap-6 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mb-20">
           {filteredApps.map((data) => (
             <AllApp key={data.id} data={data}></AllApp>
           ))}

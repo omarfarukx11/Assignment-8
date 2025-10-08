@@ -8,13 +8,13 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <div className="text-center pt-20 pb-10">
+      <div className="text-center pt-20 pb-10 ">
         <h1 className="text-5xl font-semibold pb-3 px-5">Trending Apps</h1>
         <p className="text-gray-500 px-5">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 px-10">
         {appsData.slice(0, 8).map((appData) => (
           <TrendingApps key={appData.id} appData={appData} />
         ))}
@@ -25,7 +25,7 @@ const Home = () => {
           <button className="btn text-white text-lg px-10 py-5 bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)]">
             Show All
           </button>
-      </Link>
+      </Link>    
         </div>
     </div>
   );
