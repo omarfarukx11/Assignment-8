@@ -11,6 +11,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { addToLocalStorage } from "../../../Utility/AddLS";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -29,6 +30,12 @@ const AppDetails = () => {
     description,
     size,
   } = singleAppDetails;
+
+const handleInstall = (id) => {
+  
+  addToLocalStorage(id)
+}
+
 
   return (
     <div className="py-20 bg-[#f5f5f5] px-10">
@@ -67,7 +74,7 @@ const AppDetails = () => {
             </div>
           </div>
           <div className=" lg:absolute bottom-0 text-center md:py-0 py-10">
-            <button className="btn btn-success text-white px-10 py-6 text-xl">
+            <button onClick={() => {handleInstall(id)}} className="btn btn-success text-white px-10 py-6 text-xl">
               {" "}
               Install Now ({size} MB){" "}
             </button>

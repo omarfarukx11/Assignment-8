@@ -9,9 +9,10 @@ const Root = () => {
   return (
     <div>
       <Header />
-
       {navigation.state === "loading" && (
-        <div className=" w-full h-1 bg-blue-500 animate-pulse z-50 text-center items-center">Loading</div>
+        <div className=" w-full text-5xl flex  h-[100vh] z-50 text-center items-center justify-center font-bold gap-5">
+         <span>Loading</span> <span className="loading loading-dots loading-xl"></span>
+          </div>
       )}
 
       <Outlet />
