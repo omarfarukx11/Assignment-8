@@ -88,7 +88,7 @@ const handleInstall = (id) => {
             </div>
           </div>
           <div className=" lg:absolute bottom-0 text-center md:py-0 py-10">
-            <button onClick={() => {handleInstall(id)}} disabled={isInstall} className="btn btn-success text-white px-10 py-6 text-xl">
+            <button onClick={() => {handleInstall(id)}} disabled={isInstall} className={`bg-[#00D380] disabled:cursor-not-allowed px-10 rounded-sm py-4 text-white text-xl`}>
               {
                 isInstall ? 'Installed' : `Install Now (${size} MB)`
               }
