@@ -2,18 +2,8 @@ import React from "react";
 import DownloadImg from "../../../assets/icon-downloads.png";
 import StarImg from "../../../assets/icon-ratings.png";
 
-const Install = ({ installApp }) => {
-  const { title, image, size, downloads, ratingAvg  } = installApp;
-  
-
-  const uninstallApp = (id) => {
-  const localStorageData = localStorage.getItem('install');
-  const storedAppData = JSON.parse(localStorageData); 
-  const updatedData = storedAppData.filter(item => item !== String(id));
-  const setToLocalStorage = JSON.stringify(updatedData)
-  localStorage.setItem('install', setToLocalStorage);
-};
-
+const Install = ({ installApp , handleUninstall }) => {
+  const { title, image, size, downloads, ratingAvg ,id } = installApp;
   return (
     <div className="px-10 mt-5">
       <div className="flex px-5 justify-between items-center py-4 shadow-xl rounded-xl bg-[#ffffff]">
@@ -43,7 +33,7 @@ const Install = ({ installApp }) => {
           </div>
         </div>
         <div className="text-center">
-            <button onClick={() => {uninstallApp(installApp.id)}} className="btn btn-success text-white px-10 py-6 text-xl">
+            <button onClick={() => {handleUninstall(id ,title)}} className="btn btn-success text-white px-10 py-6 text-xl">
               Uninstall
             </button>
           </div>

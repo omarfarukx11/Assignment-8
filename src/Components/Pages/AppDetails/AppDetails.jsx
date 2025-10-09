@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import DownloadImg from "../../../assets/icon-downloads.png";
 import StarImg from "../../../assets/icon-ratings.png";
 import LikeImg from "../../../assets/icon-review.png";
+import { ToastContainer, toast } from 'react-toastify';
 import {
   Bar,
   ComposedChart,
@@ -11,9 +12,10 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { addToLocalStorage } from "../../../Utility/AddLS";
+import { addToLocalStorage , getLocalStorageData, } from "../../../Utility/AddLS";
 
 const AppDetails = () => {
+  const [isInstall , setIsInstall] = useState(false)
   const { id } = useParams();
   const appId = parseInt(id);
   const appsData = useLoaderData();
@@ -31,9 +33,21 @@ const AppDetails = () => {
     size,
   } = singleAppDetails;
 
+useEffect(() => {
+  const localStorageData = getLocalStorageData()
+  if(localStorageData.includes(String(appId))) {
+    setIsInstall(true)
+  }
+},[appId]
+)
+
+
 const handleInstall = (id) => {
-  
   addToLocalStorage(id)
+  setIsInstall(true)
+  toast(`${title} installed successfully!`);
+  
+  
 }
 
 
@@ -41,7 +55,7 @@ const handleInstall = (id) => {
     <div className="py-20 bg-[#f5f5f5] px-10">
       <div className="flex flex-col lg:flex-row gap-10 relative">
         <div>
-          {" "}
+         
           <img className="w-[400px] h-[400px] rounded-lg lg:mx-0 mx-auto" src={image} alt="app" />
         </div>
         <div className="">
@@ -74,9 +88,10 @@ const handleInstall = (id) => {
             </div>
           </div>
           <div className=" lg:absolute bottom-0 text-center md:py-0 py-10">
-            <button onClick={() => {handleInstall(id)}} className="btn btn-success text-white px-10 py-6 text-xl">
-              {" "}
-              Install Now ({size} MB){" "}
+            <button onClick={() => {handleInstall(id)}} disabled={isInstall} className="btn btn-success text-white px-10 py-6 text-xl">
+              {
+                isInstall ? 'Installed' : `Install Now (${size} MB)`
+              }
             </button>
           </div>
         </div>
@@ -103,6 +118,7 @@ const handleInstall = (id) => {
         <p className="font-semibold text-2xl py-5">Description</p>
         <p className="text-gray-500">{description}</p>
       </div>
+      <ToastContainer position="top-center" />
     </div>
   );
 };
