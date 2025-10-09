@@ -18,7 +18,7 @@ const AllApp = ({data}) => {
                 <div className="flex justify-between">
                   <div className="flex items-center gap-2 text-[#00D390] bg-[#F1F5E8] py-2 px-4 rounded-lg">
                     <img className="w-[15px]" src={DownloadImg} alt="downloadImage" />
-                    <p>{downloads}</p>
+                    <p>{downloads} M</p>
                   </div>
                   <div className="flex items-center gap-2 text-[#FF8811] bg-[#FFF0E1] py-2 px-4 rounded-lg ">
                     <img className="w-[15px]" src={StarImg} alt="downloadImage" />

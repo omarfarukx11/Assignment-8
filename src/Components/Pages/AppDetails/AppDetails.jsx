@@ -64,8 +64,7 @@ const handleInstall = (id) => {
             <p className="text-xl pt-3">
               Developed By{" "}
               <span className="bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] bg-clip-text text-transparent text-xl">
-                {" "}
-                {companyName}{" "}
+                {companyName}
               </span>
             </p>
             <div className="divider mt-5 divider-start"></div>
@@ -74,7 +73,7 @@ const handleInstall = (id) => {
             <div className="justify-items-center">
               <img src={DownloadImg} alt="downloadImage" />
               <p className="py-3">Downloads</p>
-              <h1 className="text-5xl font-semibold">{downloads}</h1>
+              <h1 className="text-5xl font-semibold">{downloads} M</h1>
             </div>
             <div className="justify-items-center" >
               <img src={StarImg} alt="downloadImage" />

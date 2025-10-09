@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
-import { useLoaderData, useNavigation} from "react-router";
+import { useLoaderData} from "react-router";
 import AllApp from "../AllApp/AllApp";
 import AppNotFound from "../AppNotFound/AppNotFound";
 
 const Apps = () => {
- const navigation = useNavigation()
+
   const allAppsData = useLoaderData();
   const [searchData, setSearchData] = useState("");
 
@@ -15,12 +15,6 @@ const Apps = () => {
 
   return (
     <div className="px-10">
-        {navigation.state === "loading" && (
-        <div className=" w-full text-5xl flex  h-[100vh] z-50 text-center items-center justify-center font-bold gap-5">
-          <span>Loading</span>{" "}
-          <span className="loading loading-dots loading-xl"></span>
-        </div>
-      )}
       <div className="text-center my-16 px-5">
         <h1 className="text-5xl font-semibold">Our All Applications</h1>
         <p className="text-gray-600 py-5">
