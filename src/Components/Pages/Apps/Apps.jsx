@@ -14,7 +14,7 @@ const Apps = () => {
   );
 
   return (
-    <div className="px-10">
+    <div className=" md:px-10 px-4">
       <div className="text-center my-16 px-5">
         <h1 className="text-5xl font-semibold">Our All Applications</h1>
         <p className="text-gray-600 py-5">

@@ -56,11 +56,11 @@ const handleInstall = (id) => {
       <div className="flex flex-col lg:flex-row gap-10 relative">
         <div>
          
-          <img className="w-[400px] h-[400px] rounded-lg lg:mx-0 mx-auto" src={image} alt="app" />
+          <img className="md:w-[400px] md:h-[400px] w-[200px] h-[200px] rounded-lg lg:mx-0 mx-auto" src={image} alt="app" />
         </div>
         <div className="">
           <div className="lg:text-start text-center">
-            <h1 className="text-5xl font-semibold">{title}</h1>
+            <h1 className="md:text-5xl text-3xl font-semibold">{title}</h1>
             <p className="text-xl pt-3">
               Developed By{" "}
               <span className="bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] bg-clip-text text-transparent text-xl">
