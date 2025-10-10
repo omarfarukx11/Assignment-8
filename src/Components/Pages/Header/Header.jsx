@@ -7,7 +7,7 @@ const Header = () => {
     const links = <>
         <NavLink to={'/'} >home</NavLink>
         <NavLink to={'/apps'} >Apps</NavLink>
-        <NavLink to={'/instal'} >Installation</NavLink>
+        <NavLink to={'/install'} >Installation</NavLink>
     </>
     return (
         

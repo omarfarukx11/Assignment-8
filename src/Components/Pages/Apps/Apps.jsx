@@ -20,9 +20,10 @@ const Apps = () => {
       );
       setFilteredApps(filteredAllApps);
       setLoading(false);
-    }, 300);
+    }, 400);
 
-    return () => clearTimeout(timeOutSet);
+    const timeoutClear =  () => clearTimeout(timeOutSet);
+    return timeoutClear;
   }, [searchData, allAppsData]);
 
   return (

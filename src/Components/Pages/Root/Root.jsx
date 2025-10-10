@@ -1,23 +1,41 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../Header/Header';
 import Footer from '../../Footer/Footer';
 import { Outlet, useNavigation } from 'react-router';
 import Loader from '../Loader/Loader';
 
 const Root = () => {
+  const [loader , setLoader] = useState(false)
   const navigation = useNavigation();
+
+  useEffect(() => {
+    setLoader(true)
+    const timerSet = setTimeout(() => {
+      if(navigation.state === 'loading'){
+        setLoader(true)
+      }
+      else{
+        setLoader(false)
+      }
+    }, 300);
+
+      const timeoutClear =  () =>  clearTimeout(timerSet)
+      return timeoutClear
+      
+    } ,[navigation.state]
+  )
+
+
 
   return (
     <div>
       <Header />
-      {navigation.state === "loading" && (
-        <div className=" w-full text-5xl flex  h-[100vh] z-50 text-center items-center justify-center font-bold gap-5">
+      {loader && (
+        <div className='flex items-center justify-center h-[100vh]'>
          <Loader></Loader>
           </div>
       )}
-
       <Outlet />
-
       <Footer />
     </div>
   );
