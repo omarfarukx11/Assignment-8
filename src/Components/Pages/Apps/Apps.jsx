@@ -5,7 +5,6 @@ import AllApp from "../AllApp/AllApp";
 import AppNotFound from "../AppNotFound/AppNotFound";
 import Loader from "../Loader/Loader";
 
-
 const Apps = () => {
   const allAppsData = useLoaderData();
   const [searchData, setSearchData] = useState("");
@@ -22,7 +21,7 @@ const Apps = () => {
       setLoading(false);
     }, 400);
 
-    const timeoutClear =  () => clearTimeout(timeOutSet);
+    const timeoutClear = () => clearTimeout(timeOutSet);
     return timeoutClear;
   }, [searchData, allAppsData]);
 
@@ -51,17 +50,17 @@ const Apps = () => {
         </label>
       </div>
 
-      {loading ? 
+      {loading ? (
         <Loader></Loader>
-       : filteredApps.length > 0 ? 
+      ) : filteredApps.length > 0 ? (
         <div className="grid xl:grid-cols-4 gap-6 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mb-20">
           {filteredApps.map((data) => (
             <AllApp key={data.id} data={data}></AllApp>
           ))}
         </div>
-      : 
+      ) : (
         <AppNotFound />
-      }
+      )}
     </div>
   );
 };

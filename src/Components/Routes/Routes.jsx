@@ -42,7 +42,6 @@ const router = createBrowserRouter([
         path: "/apps/*",
         Component: AppNotFound,
       },
-
       {
         path: "/*",
         Component: NotFound,

@@ -7,7 +7,7 @@ import { ToastContainer, toast } from "react-toastify";
 const Installation = () => {
   const appsList = useLoaderData();
   const [installApps, setInstallApps] = useState([]);
-  const [sort , setSort ] = useState('')
+  const [sort, setSort] = useState("");
   useEffect(() => {
     const getStorageData = getLocalStorageData();
     const filteredApp = appsList.filter((app) =>
@@ -30,19 +30,22 @@ const Installation = () => {
   };
 
   const handleSort = (type) => {
-    setSort(type)
-    if(type === "low") {
-      const sortedByPage = [...installApps].sort((a,b) => a.downloads - b.downloads)
-      setInstallApps(sortedByPage)
-      console.log(sortedByPage)
+    setSort(type);
+    if (type === "low") {
+      const sortedByPage = [...installApps].sort(
+        (a, b) => a.downloads - b.downloads
+      );
+      setInstallApps(sortedByPage);
+      console.log(sortedByPage);
     }
-    if(type === "high") {
-      const sortedByPage = [...installApps].sort((a,b) => b.downloads - a.downloads);
-      setInstallApps(sortedByPage)
+    if (type === "high") {
+      const sortedByPage = [...installApps].sort(
+        (a, b) => b.downloads - a.downloads
+      );
+      setInstallApps(sortedByPage);
     }
-    console.log(setInstallApps)
-  }
-  
+    console.log(setInstallApps);
+  };
 
   return (
     <div className="my-20  md:px-10 px-4">
@@ -58,11 +61,14 @@ const Installation = () => {
           <span>{installApps.length}</span> Apps Found
         </p>
         <div className="dropdown dropdown-bottom rounded-sm px-6 py-2 bg-white shadow-xl">
-         <select onChange={e => handleSort(e.target.value)} className="p-2 text-lg ">
-          <option selected>Sort By Size </option>
-          <option value={'low'}>Low-High</option>
-          <option value={'high'}>High-Low</option>
-         </select>
+          <select defaultValue={'Sort By Size'}
+            onChange={(e) => handleSort(e.target.value)}
+            className="p-2 text-lg "
+          >
+            <option >Sort By Size </option>
+            <option value={"low"}>Low-High</option>
+            <option value={"high"}>High-Low</option>
+          </select>
         </div>
       </div>
 

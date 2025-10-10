@@ -6,8 +6,12 @@ const NotFound = () => {
   return (
     <div className="justify-items-center py-20">
       <img className="py-10 px-5" src={NotFoundImg} alt="404" />
-      <h1 className="font-semibold text-2xl md:text-5xl py-5 uppercase">Oops, page not found!!</h1>
-      <p className="text-center">The page you are looking for is not available.</p>
+      <h1 className="font-semibold text-2xl md:text-5xl py-5 uppercase">
+        Oops, page not found!!
+      </h1>
+      <p className="text-center">
+        The page you are looking for is not available.
+      </p>
       <Link to={"/"}>
         <div className="  flex items-center justify-center pt-10 pb-20">
           <button className="btn text-white text-lg px-10 py-5 bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)]">

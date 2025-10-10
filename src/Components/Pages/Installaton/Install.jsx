@@ -2,8 +2,8 @@ import React from "react";
 import DownloadImg from "../../../assets/icon-downloads.png";
 import StarImg from "../../../assets/icon-ratings.png";
 
-const Install = ({ installApp , handleUninstall }) => {
-  const { title, image, size, downloads, ratingAvg ,id } = installApp;
+const Install = ({ installApp, handleUninstall }) => {
+  const { title, image, size, downloads, ratingAvg, id } = installApp;
   return (
     <div className=" mt-5">
       <div className="flex px-5 flex-col md:flex-row md:gap-5 gap-10 justify-between items-center py-4 shadow-xl rounded-xl bg-[#ffffff]">
@@ -13,7 +13,7 @@ const Install = ({ installApp , handleUninstall }) => {
           </div>
           <div>
             <h1 className="text-2xl md:pb-3 pb-6 font-semibold">{title}</h1>
-            <div >
+            <div>
               <div className="flex items-center gap-5">
                 <div className="flex items-center gap-2 text-[#00D390] bg-[#F1F5E8] py-2 px-4 rounded-lg">
                   <img
@@ -33,13 +33,16 @@ const Install = ({ installApp , handleUninstall }) => {
           </div>
         </div>
         <div className="text-center">
-            <button onClick={() => {handleUninstall(id ,title)}} className="btn btn-success text-white px-10 py-6 text-xl">
-              Uninstall
-            </button>
-          </div>
+          <button
+            onClick={() => {
+              handleUninstall(id, title);
+            }}
+            className="btn btn-success text-white px-10 py-6 text-xl"
+          >
+            Uninstall
+          </button>
+        </div>
       </div>
-
-
     </div>
   );
 };
