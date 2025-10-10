@@ -28,8 +28,8 @@ const Apps = () => {
   return (
     <div className="md:px-10 px-4">
       <div className="text-center my-16 px-5">
-        <h1 className="text-5xl font-semibold">Our All Applications</h1>
-        <p className="text-gray-600 py-5">
+        <h1 className="sm:text-5xl text-2xl font-semibold">Our All Applications</h1>
+        <p className="text-gray-600 py-5 text-sm px-5 ">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
@@ -53,7 +53,7 @@ const Apps = () => {
       {loading ? (
         <Loader></Loader>
       ) : filteredApps.length > 0 ? (
-        <div className="grid xl:grid-cols-4 gap-6 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mb-20">
+        <div className="grid 2xl:grid-cols-4 gap-6 lg:grid-cols-3 grid-cols-2  mb-20">
           {filteredApps.map((data) => (
             <AllApp key={data.id} data={data}></AllApp>
           ))}

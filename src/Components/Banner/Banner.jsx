@@ -45,25 +45,25 @@ const Banner = () => {
       </div>
       <div className="py-10  bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] text-white px-20">
         <h1
-          className="text-center font-semibold md::text-4xl text-2xl md:py-10 pb-5
+          className="text-center font-semibold md:text-4xl sm:text-3xl text-2xl md:py-10 pb-5
         "
         >
           Trusted by Millions, Built for You
         </h1>
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-4 justify-items-center">
-          <div className="text-center md:py-10">
+        <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 justify-items-center">
+          <div className="text-center sm:py-10">
             <p>Total Downloads</p>
-            <h1 className="md:text-5xl text-2xl py-1 font-semibold md:py-4">29.6M</h1>
+            <h1 className="sm:text-5xl text-2xl py-1 font-semibold sm:py-4">29.6M</h1>
             <p className="text-[10px]">21% more than last month</p>
           </div>
-          <div className="text-center md:py-10">
+          <div className="text-center sm:py-10">
             <p>Total Reviews</p>
-            <h1 className="md:text-5xl text-2xl font-semibold py-1 md:py-4">906K</h1>
+            <h1 className="sm:text-5xl text-2xl font-semibold py-1 sm:py-4">906K</h1>
             <p className="text-[10px]">46% more than last month</p>
           </div>
-          <div className="text-center md:py-10">
+          <div className="text-center sm:py-10">
             <p>Active Apps</p>
-            <h1 className="md:text-5xl text-2xl font-semibold py-1 md:py-4">132+</h1>
+            <h1 className="sm:text-5xl text-2xl font-semibold py-1 sm:py-4">132+</h1>
             <p className="text-[10px]">31 more will Launch</p>
           </div>
         </div>

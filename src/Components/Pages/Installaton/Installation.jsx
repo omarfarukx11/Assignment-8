@@ -50,8 +50,8 @@ const Installation = () => {
   return (
     <div className="my-20  md:px-10 px-4">
       <div className="text-center px-5">
-        <h1 className="text-5xl font-semibold">Your Installed Apps</h1>
-        <p className="text-gray-600 pt-5 ">
+        <h1 className="sm:text-5xl text-2xl font-semibold">Your Installed Apps</h1>
+        <p className="text-gray-600 sm:pt-5 pt-2 px-5 text-sm">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
@@ -72,7 +72,8 @@ const Installation = () => {
         </div>
       </div>
 
-      {installApps.map((installApp) => (
+      <div>
+        {installApps.map((installApp) => (
         <Install
           handleUninstall={handleUninstall}
           key={installApp.id}
@@ -80,6 +81,7 @@ const Installation = () => {
         ></Install>
       ))}
       <ToastContainer position="top-center" />
+      </div>
     </div>
   );
 };

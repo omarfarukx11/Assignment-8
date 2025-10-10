@@ -14,7 +14,7 @@ const Home = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 md:px-10 px-4">
+      <div className="grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-2 gap-5 md:px-10 px-4">
         {appsData.slice(0, 8).map((appData) => (
           <TrendingApps key={appData.id} appData={appData} />
         ))}
