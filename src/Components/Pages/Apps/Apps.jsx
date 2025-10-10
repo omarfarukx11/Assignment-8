@@ -29,7 +29,7 @@ const Apps = () => {
     <div className="md:px-10 px-4">
       <div className="text-center my-16 px-5">
         <h1 className="sm:text-5xl text-2xl font-semibold">Our All Applications</h1>
-        <p className="text-gray-600 py-5 text-sm px-5 ">
+        <p className="text-gray-600 py-5 md:text-xl text-sm px-5 ">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>

@@ -9,8 +9,8 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <div className="text-center pt-20 pb-10 ">
-        <h1 className="text-5xl font-semibold pb-3 px-5">Trending Apps</h1>
-        <p className="text-gray-500 px-5">
+        <h1 className="sm:text-5xl text-2xl font-semibold pb-3 px-5">Trending Apps</h1>
+        <p className="text-gray-500 px-5 sm:text-xl text-sm">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
