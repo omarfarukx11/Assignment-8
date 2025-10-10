@@ -14,13 +14,13 @@ const Home = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-2 gap-5 md:px-10 px-4">
+      <div className="grid 2xl:grid-cols-4 gap-6 lg:grid-cols-3 grid-cols-2  mb-20 sm:px-10 px-5">
         {appsData.slice(0, 8).map((appData) => (
           <TrendingApps key={appData.id} appData={appData} />
         ))}
       </div>
 
-      <div className="  flex items-center justify-center pt-10 pb-20">
+      <div className=" flex items-center justify-center pt-10 pb-20">
         <Link to={"/apps"}>
           <button className="btn text-white text-lg px-10 py-5 bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)]">
             Show All
