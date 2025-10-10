@@ -23,17 +23,20 @@ const Root = () => {
   }, [navigation.state]);
 
   return (
-    <div>
-      <Header />
-      {loader && (
-        <div className="flex items-center justify-center h-[100vh]">
-          <Loader></Loader>
-        </div>
-      )}
-      <Outlet />
-      <Footer />
-    </div>
-  );
+     <div>
+    {loader ? 
+      <div className="flex items-center justify-center h-screen">
+        <Loader />
+      </div>
+     : 
+      <>
+        <Header />
+        <Outlet />
+        <Footer />
+      </>
+    }
+  </div>
+);
 };
 
 export default Root;
