@@ -37,5 +37,5 @@
 - **React Toastify**: To provide elegant, non-intrusive user notifications.
 
 👤 Author
-GitHub: https://github.com/omarfarukx11
-linkedin : www.linkedin.com/in/omar-farukx57
+- GitHub: https://github.com/omarfarukx11
+- linkedin : www.linkedin.com/in/omar-farukx57
