@@ -5,7 +5,7 @@
 ## 📖 Project Overview
 **Hero-IO** is a high-performance game service website dedicated to gamers looking for rare and "lost" titles. Our platform provides a seamless experience for users to browse, discover, and download games directly to their devices. Built with a focus on speed and security, Hero-IO ensures that your next gaming adventure is just a click away.
 
-🔗 **Live Demo:** [hero-io-app.web.app]([https://your-live-link.com](https://hero-io-apps-service.netlify.app/))
+🔗 **Live Demo:**https://hero-io-apps-service.netlify.app/
 
 ---
 
